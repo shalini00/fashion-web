@@ -87,7 +87,7 @@
     /* font-family: 'Satisfy', cursive; */
 }
 
-
+/*  body background */
 #home::before{
     content: "";
     background: url('../img/2.jpg') no-repeat center center/cover ;
@@ -131,7 +131,7 @@
 
 .navitems{
    
-   display: flex;
+   /*display: flex;  layout to vertical*/
    align-items: center;
    justify-content: center;
     /* border: 2px solid black; */
@@ -139,9 +139,9 @@
     /* background-color: black; */
     
 }
-
+/* navbar list element */
 .navitems li{
-    margin: 12px 16px;
+    margin: 96px 16px;
     font-size: 20px;
     list-style: none;
     /* border: 1px solid black; */
@@ -152,7 +152,7 @@
 }
 
 
-
+/* navbar links */
 .navitems li a{
     text-decoration: none;
     color: white;
