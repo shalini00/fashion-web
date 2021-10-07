@@ -30,7 +30,8 @@
     /* border: 2px solid black; */
      font-size: 30px;
      padding: 12px;
-     color: white;
+     color: white !important;
+     /*!important can be used to force browser to apply any property*/
 }
 
 #search{
